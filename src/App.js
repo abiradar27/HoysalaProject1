@@ -1,10 +1,17 @@
-
+import React from 'react';
+import './default.scss';
+import Header from './components/Header';
+import HomePage from './pages/Homepage/HomePage';
 
 
 function App() {
   return (
     <div className="App">
-     <h1> Welcome to Hoysala project1</h1>
+    <Header />
+    <div className="main">
+     <HomePage />
+     
+     </div>
     </div>
   );
 }
